@@ -1,0 +1,17 @@
+cv-annotation-pipeline-tools/
+├── README.md
+├── requirements.txt
+├── formats_conversion/
+│   ├── labelme_to_yolo.py
+│   ├── cvat_xml_to_coco.py
+│   └── voc_to_yolo.py
+├── quality_assurance/
+│   ├── find_empty_labels.py
+│   ├── check_bbox_boundaries.py
+│   └── class_distribution_plot.py
+├── automation/
+│   ├── roboflow_api_sync.py
+│   └── auto_train_val_split.py
+└── sample_data/
+    ├── raw_images/
+    └── annotations/
